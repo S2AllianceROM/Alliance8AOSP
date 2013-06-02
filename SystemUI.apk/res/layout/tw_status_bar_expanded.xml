@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<FrameLayout android:id="@id/notification_panel" android:background="@drawable/notification_panel_bg" android:paddingTop="@dimen/notification_panel_padding_top" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_marginLeft="@dimen/notification_panel_margin_left"
+<FrameLayout android:id="@id/notification_panel" android:background="#00000000" android:paddingTop="@dimen/notification_panel_padding_top" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_marginLeft="@dimen/notification_panel_margin_left"
   xmlns:android="http://schemas.android.com/apk/res/android"
   xmlns:systemui="http://schemas.android.com/apk/res/com.android.systemui">
     <com.android.systemui.statusbar.phone.NotificationWallpaper android:id="@id/notification_wallpaper" android:layout_width="fill_parent" android:layout_height="fill_parent" />
@@ -17,7 +17,7 @@
                             <com.android.systemui.statusbar.policy.ToggleSlider android:id="@id/auto_brightness" android:layout_width="fill_parent" android:layout_height="fill_parent" />
                         </FrameLayout>
                     </LinearLayout>
-                    <View android:background="#ff091a24" android:layout_width="fill_parent" android:layout_height="1.0dip" />
+                    <View android:background="#00091a24" android:layout_width="fill_parent" android:layout_height="1.0dip" />
                 </LinearLayout>
                 <LinearLayout android:orientation="vertical" android:id="@id/noNotificationsTitle" android:focusable="true" android:visibility="gone" android:layout_width="0.0dip" android:layout_height="0.0dip">
                     <TextView android:id="@id/noNotificationsText" android:visibility="gone" android:layout_width="0.0dip" android:layout_height="0.0dip" android:text="@string/status_bar_no_notifications_title" />
